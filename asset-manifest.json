@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/honey-hunters/static/css/main.439605e1.chunk.css",
-    "main.js": "/honey-hunters/static/js/main.2ceace14.chunk.js",
-    "main.js.map": "/honey-hunters/static/js/main.2ceace14.chunk.js.map",
+    "main.js": "/honey-hunters/static/js/main.1e2abe4e.chunk.js",
+    "main.js.map": "/honey-hunters/static/js/main.1e2abe4e.chunk.js.map",
     "runtime-main.js": "/honey-hunters/static/js/runtime-main.3e6055c3.js",
     "runtime-main.js.map": "/honey-hunters/static/js/runtime-main.3e6055c3.js.map",
     "static/css/2.150d169a.chunk.css": "/honey-hunters/static/css/2.150d169a.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.e4aa89cb.chunk.js",
     "static/css/main.439605e1.chunk.css",
-    "static/js/main.2ceace14.chunk.js"
+    "static/js/main.1e2abe4e.chunk.js"
   ]
 }
