@@ -4,8 +4,6 @@ import CardTemplate from "../CardTemplate/CardTemplate";
 import "./CardsList.css";
 
 export default function CardsList({messagesArr}) {
-
-
   return(
     <Container 
       fluid
@@ -14,7 +12,7 @@ export default function CardsList({messagesArr}) {
         display: "flex", 
         flexDirection: "column",
         justifyContent: "center",
-        padding: "0 20%"
+        padding: "0 20% 40px"
       }}
     >
       <Row>
