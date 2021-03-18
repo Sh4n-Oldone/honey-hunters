@@ -3,7 +3,7 @@ import icon from "../../images/contact-icon.png";
 import { Container, Col, Row, Form, Button, Image } from "react-bootstrap";
 import "./Form.css";
 
-export default function FormBlock({handleNewMessage}) {
+export default function FormBlock({handleNewMessage, sendMessages}) {
   const [inputs, setInputs] = useState({
     name: '',
     email: '',
@@ -19,11 +19,12 @@ export default function FormBlock({handleNewMessage}) {
   const handleSubmit = (event) => {
     event.preventDefault();
     handleNewMessage(inputs);
+    // sendMessages(inputs); // При реальной апишке здесь было бы отправление данных
     setInputs({
       name: '',
       email: '',
       message: ''
-    })
+    });
   }
 
   return (

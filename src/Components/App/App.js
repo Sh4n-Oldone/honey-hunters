@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import messageApi from "../../utils/api"
 import Header from "../Header/Header";
 import FormBlock from "../Form/Form";
 import CardsList from "../CardsList/CardsList";
@@ -23,6 +24,7 @@ export default function App() {
       "message": "Всем привет, я Маруся"
     }
   ])
+
   const handleNewMessage = (data) => {
     setCards( state => {
       const newArr = [...state, {
@@ -36,12 +38,32 @@ export default function App() {
       return newArr
     })
   }
+
+  async function loadMessages() {
+    try {
+      await messageApi.getMessages()
+        .then( cards => setCards(cards) )
+    } catch (error) {
+      
+    }
+  }
+
+  function sendMessages(data) {
+    messageApi.setNewMessages(data)
+      .then( newCards => setCards(newCards) )
+  }
+
+  useEffect(() => {
+    loadMessages()
+  }, [])
+
   return (
     <div className="App">
 
       <Header />
       <FormBlock 
         handleNewMessage={handleNewMessage}
+        sendMessages={sendMessages}
       />
       <CardsList 
         messagesArr={cards}
