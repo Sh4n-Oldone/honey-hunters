@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/honey-hunters/static/css/main.439605e1.chunk.css",
+    "main.js": "/honey-hunters/static/js/main.310ea9b4.chunk.js",
+    "main.js.map": "/honey-hunters/static/js/main.310ea9b4.chunk.js.map",
+    "runtime-main.js": "/honey-hunters/static/js/runtime-main.3e6055c3.js",
+    "runtime-main.js.map": "/honey-hunters/static/js/runtime-main.3e6055c3.js.map",
+    "static/css/2.150d169a.chunk.css": "/honey-hunters/static/css/2.150d169a.chunk.css",
+    "static/js/2.51263932.chunk.js": "/honey-hunters/static/js/2.51263932.chunk.js",
+    "static/js/2.51263932.chunk.js.map": "/honey-hunters/static/js/2.51263932.chunk.js.map",
+    "index.html": "/honey-hunters/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/honey-hunters/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.439605e1.chunk.css.map": "/honey-hunters/static/css/main.439605e1.chunk.css.map",
+    "static/js/2.51263932.chunk.js.LICENSE.txt": "/honey-hunters/static/js/2.51263932.chunk.js.LICENSE.txt",
+    "static/media/contact-icon.df438426.png": "/honey-hunters/static/media/contact-icon.df438426.png",
+    "static/media/logo.413b004c.png": "/honey-hunters/static/media/logo.413b004c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3e6055c3.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.51263932.chunk.js",
+    "static/css/main.439605e1.chunk.css",
+    "static/js/main.310ea9b4.chunk.js"
+  ]
+}
