@@ -1,0 +1,19 @@
+.container-fluid {
+  background-color: #2d3136;
+}
+
+.footer__logo {
+  width: auto;
+  height: 30px;
+  margin: 30px auto 40px 0;
+}
+
+.footer__link {
+  width: auto;
+  height: 35px;
+}
+
+.footer__link:last-of-type {
+  margin-right: 0;
+  margin-left: 15px;
+}

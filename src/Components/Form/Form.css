@@ -1,0 +1,48 @@
+.container-fluid {
+  background-color: #2d3136;
+}
+
+.rounded-circle {
+  width: auto;
+  height: 191px;
+  margin: 0 auto 15px;
+}
+
+.form__asterisk {
+  color: #cc3333;
+}
+
+#form__textarea {
+  min-height: 150px;
+}
+
+.form-control {
+  background-color: #2f3338;
+  box-shadow: none;
+  color: #cccccc;
+  border-color: #4c4f53;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.form-control:focus {
+  border-color: #743538;
+  background-color: #2f3338;
+  outline: none;
+  box-shadow: none;
+  color: #cccccc;
+}
+
+.form-label {
+  color: #cccccc;
+  font-size: 20px;
+}
+
+.btn-primary {
+  width: 100%;
+  background-color: #be393b;
+  border-color: #be393b;
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 45px;
+}

@@ -1,0 +1,9 @@
+.container-fluid {
+  background-color: #2d3136;
+}
+
+.header__logo {
+  width: auto;
+  height: 40px;
+  margin: 30px auto 40px 0;
+}
